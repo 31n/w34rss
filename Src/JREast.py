@@ -4,7 +4,8 @@ import requests
 from urllib import request
 import pydrive
 
-filePath = '../Result/JREast.rss'
+# filePath = '../Result/JREast.rss'
+filePath = 'C:\inetpub\wwwroot\RSS'
 #filePath = 'https://drive.google.com/file/d/1TjuFaSd1iKe8nYG3sNMp_MVlsCDwajs0/view?usp=sharing'
 url = 'https://www.jreast.co.jp/press/index.html/'
 ua = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6)' \
