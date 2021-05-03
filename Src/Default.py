@@ -6,15 +6,15 @@ from urllib import request
 import re
 import json
 
-log = True
+log = False
 # True/False
 # True: Print log to Command line
 # False: NOT print anything to Command line
-mode = 'D'
+mode = 'R'
 # Debug/Release
 # D: Debug mode(set variable from ".py")
 # R: Release mode(set variable from ".json")
-env = 'M'
+env = 'W'
 # Environment mode
 # W: Windows & export IIS folder
 # M: macOS & Relative path
