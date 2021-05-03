@@ -1,0 +1,37 @@
+{
+  "All Nippon Airways Co., Ltd.": {
+    "company": "ANA",
+    "title" : "全日本空輸株式会社",
+    "newsUrl" : "https://www.ana.co.jp/ja/jp/share/info/",
+    "mainLink" : "https://www.ana.co.jp",
+    "linkSearch" : "/ja/jp/topics/"
+  },
+    "East Japan Railway Company": {
+    "company": "JREast",
+    "title" : "JR東日本",
+    "newsUrl" : "https://www.jreast.co.jp/press/index.html/",
+    "mainLink" : "https://www.jreast.co.jp/",
+    "linkSearch" : "/20"
+  },
+    "Central Japan Railway Company": {
+    "company": "JRCentral",
+    "title" : "JR東海",
+    "newsUrl" : "https://jr-central.co.jp/news/",
+    "mainLink" : "https://jr-central.co.jp/",
+    "linkSearch" : "/news/release/"
+  },
+    "ÆON Co., Ltd.": {
+    "company": "AEON",
+    "title" : "イオン株式会社",
+    "newsUrl" : "https://www.ana.co.jp/ja/jp/share/info/",
+    "mainLink" : "https://www.aeon.info",
+    "linkSearch" : "/ja/jp/topics/"
+  },
+    "HITACHI, Ltd.": {
+    "company": "Hitachi",
+    "title" : "日立製作所",
+    "newsUrl" : "https://www.hitachi.co.jp/New/cnews/index.html",
+    "mainLink" : "https://www.hitachi.co.jp",
+    "linkSearch" : "/New/cnews/month/"
+  }
+}

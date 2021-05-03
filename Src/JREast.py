@@ -2,11 +2,11 @@ import os
 from bs4 import BeautifulSoup
 import requests
 from urllib import request
-import pydrive
+# import pydrive
 
 # filePath = '../Result/JREast.rss'
-filePath = 'C:\inetpub\wwwroot\RSS'
-#filePath = 'https://drive.google.com/file/d/1TjuFaSd1iKe8nYG3sNMp_MVlsCDwajs0/view?usp=sharing'
+filePath = 'C:\inetpub\wwwroot\RSS\JREast.rss'
+# filePath = 'https://drive.google.com/file/d/1TjuFaSd1iKe8nYG3sNMp_MVlsCDwajs0/view?usp=sharing'
 url = 'https://www.jreast.co.jp/press/index.html/'
 ua = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6)' \
      'AppleWebKit/605.1.15' \
@@ -39,7 +39,7 @@ for i in range(len(newsTitle)-3):
                 '<description>'+str(newsTitle[i].string)+'</description>\n' \
                 '<link>' + str(newsTitle[i]['href']) + '</link>\n' \
                 '</item>\n'
-    print(str(i) + ' of ' + str(len(newsTitle)-4))
+    # print(str(i) + ' of ' + str(len(newsTitle)-4))
     f.write(mainWrite)
 
 # print(soup)
